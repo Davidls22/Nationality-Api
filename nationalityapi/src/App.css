@@ -1,0 +1,105 @@
+/* Style the body */
+body {
+  background-color: #f1f1f1;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  background: url('./World.png') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Style the container */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Style the form */
+form {
+  background-color: #fff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Style the header */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the h1 and h3 tags */
+h1, h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 48px;
+  text-align: center;
+  padding: 4%;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+  padding: 4%;
+}
+
+/* Style the input field */
+input {
+  padding: 15px;
+  font-size: 24px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 400px;
+  outline: none;
+  margin-left: 55px;
+}
+
+/* Style the button */
+button {
+  background-color: #fff;
+  color: #007bff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Style the country data */
+.country-data {
+  margin-top: 40px;
+  font-size: 32px;
+  text-align: center;
+}
+
+.country-data p {
+  margin: 10px 0;
+}
+
+.country-data span {
+  font-weight: bold;
+  color: #007bff;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  border: 2px solid black;
+}
